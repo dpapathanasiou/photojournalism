@@ -1,4 +1,5 @@
 use http_cache_reqwest::{CACacheManager, Cache, CacheMode, HttpCache, HttpCacheOptions};
+use reqwest::header::USER_AGENT;
 use reqwest::Client;
 use reqwest_middleware::ClientBuilder;
 use rss::Channel;
@@ -42,6 +43,14 @@ impl NewsPhoto {
     }
 }
 
+fn user_agent() -> String {
+    format!(
+        "{}/{} +http://github.com/dpapathanasiou/photojournalism",
+        env!("CARGO_PKG_NAME"),
+        env!("CARGO_PKG_VERSION")
+    )
+}
+
 pub async fn load_feed(url: &str) -> std::result::Result<Channel, Box<dyn Error>> {
     let client = ClientBuilder::new(Client::new())
         .with(Cache(HttpCache {
@@ -50,7 +59,13 @@ pub async fn load_feed(url: &str) -> std::result::Result<Channel, Box<dyn Error>
             options: HttpCacheOptions::default(),
         }))
         .build();
-    let content = client.get(url).send().await?.bytes().await?;
+    let content = client
+        .get(url)
+        .header(USER_AGENT, user_agent())
+        .send()
+        .await?
+        .bytes()
+        .await?;
 
     let channel = Channel::read_from(&content[..])?;
     Ok(channel)
