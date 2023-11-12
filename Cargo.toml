@@ -1,0 +1,12 @@
+[package]
+name = "photojournalism"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rss = "2.0"
+scraper = "0.18.1"
+reqwest = "0.11.22"
+reqwest-middleware = "0.2.4"
+http-cache-reqwest = "0.12.0"
+tokio = { version = "1", features = ["full"] }
