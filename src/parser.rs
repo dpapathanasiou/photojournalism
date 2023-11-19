@@ -4,9 +4,10 @@ use reqwest::Client;
 use reqwest_middleware::ClientBuilder;
 use rss::Channel;
 use scraper::{Html, Selector};
+use serde::{Deserialize, Serialize};
 use std::error::Error;
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct NewsPhoto {
     pub image_url: String,
     pub story_url: String,
@@ -41,6 +42,10 @@ impl NewsPhoto {
             ),
         }
     }
+
+    pub fn as_json(&self) -> Result<String, serde_json::Error> {
+        serde_json::to_string(&self)
+    }
 }
 
 fn user_agent() -> String {
@@ -51,7 +56,7 @@ fn user_agent() -> String {
     )
 }
 
-pub async fn load_feed(url: &str) -> std::result::Result<Channel, Box<dyn Error>> {
+async fn load_feed(url: &str) -> std::result::Result<Channel, Box<dyn Error>> {
     let client = ClientBuilder::new(Client::new())
         .with(Cache(HttpCache {
             mode: CacheMode::Default,
@@ -71,7 +76,7 @@ pub async fn load_feed(url: &str) -> std::result::Result<Channel, Box<dyn Error>
     Ok(channel)
 }
 
-pub fn get_photos(c: Channel) -> Vec<NewsPhoto> {
+fn get_photos(c: Channel) -> Vec<NewsPhoto> {
     let mut results = Vec::new();
     for item in c.items() {
         let mut photo = NewsPhoto::new();
@@ -191,4 +196,14 @@ pub fn get_photos(c: Channel) -> Vec<NewsPhoto> {
         }
     }
     results
+}
+
+pub async fn get_photos_from_feed(url: &str) -> Vec<NewsPhoto> {
+    match load_feed(url).await {
+        Ok(channel) => get_photos(channel),
+        Err(_) => {
+            println!("sorry"); // TODO: log error
+            Vec::new()
+        }
+    }
 }
