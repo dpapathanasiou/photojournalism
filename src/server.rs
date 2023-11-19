@@ -2,6 +2,7 @@ use crate::loader::FeedDb;
 use actix_web::http::header::ContentType;
 use actix_web::HttpResponse;
 use actix_web::{dev::Server, web, App, HttpServer};
+use serde::{Deserialize, Serialize};
 use std::net::TcpListener;
 
 pub struct AppState {
@@ -35,6 +36,34 @@ async fn get_next(offset: web::Path<String>, state: web::Data<AppState>) -> Http
         .body(format!("[{body}]"))
 }
 
+#[derive(Debug, Serialize, Deserialize)]
+struct Status {
+    feeds: usize,
+    photos: usize,
+}
+
+async fn health(state: web::Data<AppState>) -> HttpResponse {
+    let mut feed_count: usize = 0;
+    let mut photo_count: usize = 0;
+    let feeds = &state.clone().feeds;
+    if let Ok(db) = feeds.lock() {
+        feed_count = db.keys().len();
+        photo_count = db.values().flatten().collect::<Vec<_>>().len();
+    }
+    let status = Status {
+        feeds: feed_count,
+        photos: photo_count,
+    };
+    let result = match serde_json::to_string(&status) {
+        Ok(s) => s,
+        Err(_) => format!("{:#?}", status),
+    };
+
+    HttpResponse::Ok()
+        .content_type(ContentType::json())
+        .body(result)
+}
+
 pub fn run(listener: TcpListener, db: FeedDb, next_size: usize) -> Result<Server, std::io::Error> {
     let server = HttpServer::new(move || {
         App::new()
@@ -42,6 +71,7 @@ pub fn run(listener: TcpListener, db: FeedDb, next_size: usize) -> Result<Server
                 feeds: db.clone(),
                 next_size,
             }))
+            .route("/health", web::get().to(health))
             .service(
                 web::scope("/api")
                     .service(web::resource("/next/{offset}").route(web::get().to(get_next))),
