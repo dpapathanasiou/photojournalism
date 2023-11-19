@@ -1,0 +1,8 @@
+# RSS feeds with photos
+https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+https://www.politico.com/rss/politicopicks.xml
+https://www.wired.com/feed/rss
+https://www.france24.com/en/rss
+https://www.japantimes.co.jp/feed/
+https://aeon.co/feed.rss
+https://api.quantamagazine.org/feed/

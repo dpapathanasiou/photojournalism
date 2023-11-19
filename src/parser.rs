@@ -202,7 +202,7 @@ pub async fn get_photos_from_feed(url: &str) -> Vec<NewsPhoto> {
     match load_feed(url).await {
         Ok(channel) => get_photos(channel),
         Err(err) => {
-            log::error!("could not access rss feed at {url}: {:#?}", err);
+            log::error!("could not access RSS feed at '{url}': {:#?}", err);
             Vec::new()
         }
     }
