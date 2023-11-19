@@ -22,7 +22,7 @@ async fn fetch(db: FeedDb) {
         if let Ok(mut hash) = db.lock() {
             hash.insert(feed.to_string(), photos.clone());
         } else {
-            println!("could not obtain lock") // TODO: log error
+            log::error!("rss fetch: could not obtain FeedDb lock")
         }
     }
 }

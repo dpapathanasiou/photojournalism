@@ -2,12 +2,16 @@ pub mod loader;
 pub mod parser;
 pub mod server;
 
+use env_logger::Env;
+use log::info;
 use std::collections::HashMap;
 use std::net::TcpListener;
 use std::sync::{Arc, Mutex};
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
+    env_logger::init_from_env(Env::default().default_filter_or("info"));
+
     let interval = std::env::var("PHOTOJOURNALISM_FETCH_INTERVAL")
         .expect("env var 'PHOTOJOURNALISM_FETCH_INTERVAL' not defined");
     let fetch_interval: u64 = match interval.parse() {
@@ -16,6 +20,8 @@ async fn main() -> std::io::Result<()> {
     };
 
     let feeds = Arc::new(Mutex::new(HashMap::<String, Vec<parser::NewsPhoto>>::new()));
+
+    info!("fetching rss feeds every {fetch_interval} seconds");
     let db = feeds.clone();
     tokio::spawn(async move {
         loader::background(db, fetch_interval).await;
@@ -34,5 +40,6 @@ async fn main() -> std::io::Result<()> {
         Err(_) => 8, // default
     };
 
+    info!("web service running on {address}");
     server::run(listener, feeds, next_size)?.await
 }
