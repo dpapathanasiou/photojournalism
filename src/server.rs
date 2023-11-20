@@ -1,5 +1,7 @@
 use crate::loader::FeedDb;
+use actix_files::Files;
 use actix_web::http::header::ContentType;
+use actix_web::middleware::Logger;
 use actix_web::HttpResponse;
 use actix_web::{dev::Server, web, App, HttpServer};
 use serde::{Deserialize, Serialize};
@@ -71,11 +73,15 @@ pub fn run(listener: TcpListener, db: FeedDb, next_size: usize) -> Result<Server
                 feeds: db.clone(),
                 next_size,
             }))
+            .wrap(Logger::default())
+            .wrap(Logger::new("%a %{User-Agent}i"))
             .route("/health", web::get().to(health))
             .service(
                 web::scope("/api")
                     .service(web::resource("/next/{offset}").route(web::get().to(get_next))),
             )
+            .service(Files::new("/js", String::from("./static/js")).index_file("loader.js"))
+            .service(Files::new("/", String::from("./static/")).index_file("index.html"))
     })
     .listen(listener)?
     .run();
