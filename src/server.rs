@@ -23,7 +23,7 @@ async fn get_next(offset: web::Path<String>, state: web::Data<AppState>) -> Http
     let feeds = &state.clone().feeds;
     if let Ok(db) = feeds.lock() {
         let photos = db.values().flatten().collect::<Vec<_>>();
-        let subset = &photos[start..=(start + stop)];
+        let subset = &photos[start..std::cmp::min(start + stop, photos.len())];
         body = subset
             .iter()
             .map(|photo| photo.as_json())
