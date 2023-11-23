@@ -80,7 +80,10 @@ async fn health(state: web::Data<AppState>) -> HttpResponse {
     let feeds = &state.clone().feeds;
     if let Ok(db) = feeds.lock() {
         feed_count = db.keys().len();
-        photo_count = db.values().flatten().collect::<Vec<_>>().len();
+        photo_count = db.values().flatten().fold(0, |mut count, _| {
+            count += 1;
+            count
+        });
     }
     let status = Status {
         feeds: feed_count,
