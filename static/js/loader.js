@@ -23,7 +23,7 @@ function convert(obj) {
     <div class="card-body">
       <div class="d-flex justify-content-between align-items-right">
         &nbsp;
-        <a href="${obj.story_url}" target="_blank" type="button" class="btn btn-sm btn-outline-info">${go_icon}</a>
+        <a href="${obj.story_url}" target="_blank" type="button" class="btn btn-sm btn-outline-info" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="${alt_text}">${go_icon}</a>
       </div>
     </div>
   </div>`;
@@ -61,6 +61,8 @@ function reload(ind) {
             $("#photos").append(convert(val));
             posted += 1;
         });
+
+        $('[data-bs-toggle="popover"]').popover();
 
         if (ind === 0 && posted === 0) {
             $("#action").append(notice('The service is unavailable now. Please try again later.', 'danger'));
