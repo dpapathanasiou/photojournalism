@@ -3,8 +3,8 @@ use crate::shuffler::randomize;
 use actix_files::Files;
 use actix_web::http::header::ContentType;
 use actix_web::middleware::Logger;
-use actix_web::HttpResponse;
 use actix_web::{dev::Server, web, App, HttpServer};
+use actix_web::{HttpRequest, HttpResponse};
 use serde::{Deserialize, Serialize};
 use std::net::TcpListener;
 
@@ -13,12 +13,31 @@ pub struct AppState {
     pub next_size: usize,
 }
 
-async fn get_next(offset: web::Path<String>, state: web::Data<AppState>) -> HttpResponse {
+async fn get_next(
+    req: HttpRequest,
+    offset: web::Path<String>,
+    state: web::Data<AppState>,
+) -> HttpResponse {
     let start: usize = match offset.to_string().parse() {
         Ok(i) => i,
         Err(_) => 0,
     };
     let stop = &state.clone().next_size;
+    let seed: u64 = match req.peer_addr() {
+        Some(address) => address
+            .ip()
+            .to_string()
+            .chars()
+            .into_iter()
+            .map(|c| c.to_digit(10))
+            .filter(|c| c.is_some())
+            .map(|c| c.unwrap())
+            .fold(1, |mut sum, x| {
+                sum += x;
+                sum
+            }) as u64,
+        None => 127,
+    };
 
     let mut body = String::new();
     let feeds = &state.clone().feeds;
@@ -27,7 +46,7 @@ async fn get_next(offset: web::Path<String>, state: web::Data<AppState>) -> Http
         let total = photos.len();
         if start < total {
             let mut subset = Vec::new();
-            let shuffle = randomize(1, total);
+            let shuffle = randomize(seed, total);
             for i in &shuffle[start..std::cmp::min(start + stop, total)] {
                 match photos.get(*i) {
                     Some(photo) => subset.push(photo),
