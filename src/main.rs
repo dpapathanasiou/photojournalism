@@ -1,6 +1,7 @@
 pub mod loader;
 pub mod parser;
 pub mod server;
+pub mod shuffler;
 
 use env_logger::Env;
 use log::info;

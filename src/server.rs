@@ -1,4 +1,5 @@
 use crate::loader::FeedDb;
+use crate::shuffler::randomize;
 use actix_files::Files;
 use actix_web::http::header::ContentType;
 use actix_web::middleware::Logger;
@@ -23,8 +24,16 @@ async fn get_next(offset: web::Path<String>, state: web::Data<AppState>) -> Http
     let feeds = &state.clone().feeds;
     if let Ok(db) = feeds.lock() {
         let photos = db.values().flatten().collect::<Vec<_>>();
-        if start < photos.len() {
-            let subset = &photos[start..std::cmp::min(start + stop, photos.len())];
+        let total = photos.len();
+        if start < total {
+            let mut subset = Vec::new();
+            let shuffle = randomize(1, total);
+            for i in &shuffle[start..std::cmp::min(start + stop, total)] {
+                match photos.get(*i) {
+                    Some(photo) => subset.push(photo),
+                    None => log::error!("missing photo at index {i}"),
+                }
+            }
             body = subset
                 .iter()
                 .map(|photo| photo.as_json())
