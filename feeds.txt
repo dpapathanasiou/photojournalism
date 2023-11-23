@@ -6,3 +6,6 @@ https://www.france24.com/en/rss
 https://www.japantimes.co.jp/feed/
 https://aeon.co/feed.rss
 https://api.quantamagazine.org/feed/
+https://foreignpolicy.com/category/world-brief/feed/
+https://foreignpolicy.com/category/flash-points/feed/
+https://foreignpolicy.com/category/situation-report/feed/
