@@ -4,44 +4,36 @@ use actix_web::{body::to_bytes, test, web, App};
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
 
-fn nyt_news_photos() -> Vec<NewsPhoto> {
-    vec![
-        NewsPhoto{
-            image_url: "https://static01.nyt.com/images/2023/11/23/multimedia/23finland-border-kmbp/23finland-border-kmbp-mediumSquareAt3X.jpg".to_string(), 
-            story_url: "https://www.nytimes.com/2023/11/23/world/europe/finland-russia-border-migrants.html".to_string(), 
-            description: Some("Finnish border guards escorting migrants at the international crossing with Russia near Salla, Finland, on Thursday.".to_string()),
-            credit: Some("Jussi Nukari/Lehtikuva, via Associated Press".to_string())
-        },
-        NewsPhoto {
-            image_url: "https://static01.nyt.com/images/2023/11/23/multimedia/23themorning-lead-promo/23themorning-lead-bmhq-mediumSquareAt3X.jpg".to_string(),
-            story_url: "https://www.nytimes.com/2023/11/23/briefing/thanksgiving-pep-talk.html".to_string(),
-            description: Some("A Thanksgiving Pep Talk".to_string()),
-            credit: Some("Johnny Miller for The New York Times".to_string())
-        },
-    ]
-}
-
-fn f24_news_photos() -> Vec<NewsPhoto> {
-    vec![
-        NewsPhoto {
-            image_url: "https://s.france24.com/media/display/98336912-8a11-11ee-9a7e-005056bf30b7/w:1024/p:16x9/ENBT%20BIL%20SILICON%20VALLEY%20PUSH%20PICTURE.jpg".to_string(),
-            story_url: "https://www.france24.com/en/tv-shows/revisited/20231124-bouncing-back-silicon-valley-bets-on-ai-to-regain-past-glory".to_string(),
-            description: Some("Bouncing back: Silicon Valley bets on AI to regain past glory".to_string()),
-            credit: Some("Pierrick LEURENT".to_string())
-        },
-    ]
-}
-
 fn set_app_state() -> AppState {
     let mut parsed_feeds = HashMap::<String, Vec<NewsPhoto>>::new();
 
     parsed_feeds.insert(
         "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml".to_string(),
-        nyt_news_photos(),
+        vec![
+            NewsPhoto{
+                image_url: "https://static01.nyt.com/images/2023/11/23/multimedia/23finland-border-kmbp/23finland-border-kmbp-mediumSquareAt3X.jpg".to_string(), 
+                story_url: "https://www.nytimes.com/2023/11/23/world/europe/finland-russia-border-migrants.html".to_string(), 
+                description: Some("Finnish border guards escorting migrants at the international crossing with Russia near Salla, Finland, on Thursday.".to_string()),
+                credit: Some("Jussi Nukari/Lehtikuva, via Associated Press".to_string())
+            },
+            NewsPhoto {
+                image_url: "https://static01.nyt.com/images/2023/11/23/multimedia/23themorning-lead-promo/23themorning-lead-bmhq-mediumSquareAt3X.jpg".to_string(),
+                story_url: "https://www.nytimes.com/2023/11/23/briefing/thanksgiving-pep-talk.html".to_string(),
+                description: Some("A Thanksgiving Pep Talk".to_string()),
+                credit: Some("Johnny Miller for The New York Times".to_string())
+            },
+        ],
     );
     parsed_feeds.insert(
         "https://www.france24.com/en/rss".to_string(),
-        f24_news_photos(),
+        vec![
+            NewsPhoto {
+                image_url: "https://s.france24.com/media/display/98336912-8a11-11ee-9a7e-005056bf30b7/w:1024/p:16x9/ENBT%20BIL%20SILICON%20VALLEY%20PUSH%20PICTURE.jpg".to_string(),
+                story_url: "https://www.france24.com/en/tv-shows/revisited/20231124-bouncing-back-silicon-valley-bets-on-ai-to-regain-past-glory".to_string(),
+                description: Some("Bouncing back: Silicon Valley bets on AI to regain past glory".to_string()),
+                credit: Some("Pierrick LEURENT".to_string())
+            },
+        ],
     );
 
     let feed_db = Arc::new(Mutex::new(parsed_feeds));
