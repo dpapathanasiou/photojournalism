@@ -98,6 +98,28 @@ fn get_photos(c: Channel) -> Vec<NewsPhoto> {
             photo.description = Some(item.title().clone().unwrap().to_string())
         }
 
+        if let Some(content) = item.content() {
+            let fragment = Html::parse_fragment(content);
+            match Selector::parse(r#"img"#) {
+                Ok(selector) => {
+                    for elem in fragment.select(&selector) {
+                        if elem.value().attr("src").is_some() {
+                            let img_url = elem.value().attr("src").clone().unwrap().to_string();
+                            if !img_url.contains("npr-rss-pixel.png") {
+                                photo.image_url = img_url
+                            }
+                        }
+                        if let Some(alt_text) = elem.value().attr("alt") {
+                            if alt_text.len() > 0 {
+                                photo.description = Some(alt_text.to_string())
+                            }
+                        }
+                    }
+                }
+                Err(_) => photo.description = Some(content.to_string()),
+            }
+        }
+
         if let Some(desc) = item.description() {
             let fragment = Html::parse_fragment(desc);
             match Selector::parse(r#"img"#) {
