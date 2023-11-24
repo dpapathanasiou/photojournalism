@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Quanta Magazine</title>
+	<atom:link href="https://api.quantamagazine.org/feed/" rel="self" type="application/rss+xml"></atom:link>
+	<link>https://www.quantamagazine.org</link>
+	<description>Illuminating science</description>
+	<lastBuildDate>Wed, 22 Nov 2023 16:54:31 -0500</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2</generator>
+	<item>
+		<title>Pierre de Fermat’s Link to a High School Student’s Prime Math Proof</title>
+		<link>https://www.quantamagazine.org/pierre-de-fermats-link-to-a-high-school-students-prime-math-proof-20231122/</link>
+		<comments>https://www.quantamagazine.org/pierre-de-fermats-link-to-a-high-school-students-prime-math-proof-20231122/?noamp=mobile#respond</comments>
+		<pubDate>Wed, 22 Nov 2023 13:30:00 +0000</pubDate>
+    <dc:creator><![CDATA[Patrick Honner]]></dc:creator>
+				<category><![CDATA[Mathematics]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=132415</guid>
+		<description><![CDATA[How Fermat’s less famous "little theorem" got mathematicians young and old to play with prime-like Carmichael numbers.            <p>The post <a href="https://www.quantamagazine.org/pierre-de-fermats-link-to-a-high-school-students-prime-math-proof-20231122/" target="_blank">Pierre de Fermat’s Link to a High School Student’s Prime Math Proof</a> first appeared on <a href="https://api.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Like many math students, I had dreams of mathematical greatness. I thought I was close once. A difficult algebra problem in college kept me working late into the night. After hours of struggle, I felt a breakthrough coming. I deftly manipulated expressions. I factored, multiplied and simplified, until my discovery finally revealed itself: $latex 1 + 1 = 2$. I couldn&rsquo;t help but laugh.</p>
+<p><a href="https://www.quantamagazine.org/pierre-de-fermats-link-to-a-high-school-students-prime-math-proof-20231122/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/pierre-de-fermats-link-to-a-high-school-students-prime-math-proof-20231122/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://d2r55xnwy6nx47.cloudfront.net/uploads/2023/11/NovemberAcademy-byRobertNeubecker-Default.webp" type="image/jpg"></media:content>
+	</item>
+		<item>
+		<title>In the Gut’s ‘Second Brain,’ Key Agents of Health Emerge</title>
+		<link>https://www.quantamagazine.org/in-the-guts-second-brain-key-agents-of-health-emerge-20231121/</link>
+		<comments>https://www.quantamagazine.org/in-the-guts-second-brain-key-agents-of-health-emerge-20231121/?noamp=mobile#respond</comments>
+		<pubDate>Tue, 21 Nov 2023 19:09:20 +0000</pubDate>
+    <dc:creator><![CDATA[Yasemin Saplakoglu]]></dc:creator>
+				<category><![CDATA[Biology]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=132498</guid>
+		<description><![CDATA[Sitting alongside the neurons in your enteric nervous system are underappreciated glial cells, which play key roles in digestion and disease that scientists are only just starting to understand.            <p>The post <a href="https://www.quantamagazine.org/in-the-guts-second-brain-key-agents-of-health-emerge-20231121/" target="_blank">In the Gut’s ‘Second Brain,’ Key Agents of Health Emerge</a> first appeared on <a href="https://api.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>From the moment you swallow a bite of food to the moment it exits your body, the gut is toiling to process this strange outside material. It has to break chunks down into small bits. It must distinguish healthy nutrients from toxins or pathogens and absorb only what is beneficial. And it does all this while moving the partially processed food one way through different factories of digestion...</p>
+<p><a href="https://www.quantamagazine.org/in-the-guts-second-brain-key-agents-of-health-emerge-20231121/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/in-the-guts-second-brain-key-agents-of-health-emerge-20231121/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://d2r55xnwy6nx47.cloudfront.net/uploads/2023/11/EntericGlia-By-MarissaScavuzzo-Default.webp" type="image/jpg"></media:content>
+	</item>
+		<item>
+		<title>Researchers Refute a Widespread Belief About Online Algorithms</title>
+		<link>https://www.quantamagazine.org/researchers-refute-a-widespread-belief-about-online-algorithms-20231120/</link>
+		<comments>https://www.quantamagazine.org/researchers-refute-a-widespread-belief-about-online-algorithms-20231120/?noamp=mobile#respond</comments>
+		<pubDate>Mon, 20 Nov 2023 16:05:18 +0000</pubDate>
+    <dc:creator><![CDATA[Madison Goldberg]]></dc:creator>
+				<category><![CDATA[Abstractions blog]]></category>
+		<category><![CDATA[Computer Science]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=132444</guid>
+		<description><![CDATA[Three computer scientists have disproved a long-standing conjecture about a fundamental problem involving imperfect information.            <p>The post <a href="https://www.quantamagazine.org/researchers-refute-a-widespread-belief-about-online-algorithms-20231120/" target="_blank">Researchers Refute a Widespread Belief About Online Algorithms</a> first appeared on <a href="https://api.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>In life, we sometimes have to make decisions without all the information we want; that&rsquo;s true in computer science, too. This is the realm of online algorithms &mdash; which, despite their name, don&rsquo;t necessarily involve the internet. Instead, these are problem-solving strategies that respond to data as it arrives, without any knowledge of what might come next. That ability to cope with uncertainty makes...</p>
+<p><a href="https://www.quantamagazine.org/researchers-refute-a-widespread-belief-about-online-algorithms-20231120/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/researchers-refute-a-widespread-belief-about-online-algorithms-20231120/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://d2r55xnwy6nx47.cloudfront.net/uploads/2023/11/KServerProblem-byNanCao-Default.webp" type="image/jpg"></media:content>
+	</item>
+		<item>
+		<title>The Astonishing Behavior of Recursive Sequences</title>
+		<link>https://www.quantamagazine.org/the-astonishing-behavior-of-recursive-sequences-20231116/</link>
+		<comments>https://www.quantamagazine.org/the-astonishing-behavior-of-recursive-sequences-20231116/?noamp=mobile#respond</comments>
+		<pubDate>Thu, 16 Nov 2023 15:20:25 +0000</pubDate>
+    <dc:creator><![CDATA[Alex Stone]]></dc:creator>
+				<category><![CDATA[Abstractions blog]]></category>
+		<category><![CDATA[Mathematics]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=132363</guid>
+		<description><![CDATA[Some strange mathematical sequences are always whole numbers — until they’re not. The puzzling patterns have revealed ties to graph theory and prime numbers, awing mathematicians.            <p>The post <a href="https://www.quantamagazine.org/the-astonishing-behavior-of-recursive-sequences-20231116/" target="_blank">The Astonishing Behavior of Recursive Sequences</a> first appeared on <a href="https://api.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>In mathematics, simple rules can unlock universes of complexity and beauty. Take the famous Fibonacci sequence, which is defined as follows: It begins with 1 and 1, and each subsequent number is the sum of the previous two. The first few numbers are: 1, 1, 2, 3, 5, 8, 13, 21, 34 &hellip; Simple, yes, but this unassuming recipe gives rise to a pattern of far-reaching significance, one that appears to be...</p>
+<p><a href="https://www.quantamagazine.org/the-astonishing-behavior-of-recursive-sequences-20231116/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/the-astonishing-behavior-of-recursive-sequences-20231116/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://d2r55xnwy6nx47.cloudfront.net/uploads/2023/11/WeirdSequences-byKristinaArmitage-Default.webp" type="image/jpg"></media:content>
+	</item>
+		<item>
+		<title>AI System Beats Chess Puzzles With ‘Artificial Brainstorming’</title>
+		<link>https://www.quantamagazine.org/google-deepmind-trains-artificial-brainstorming-in-chess-ai-20231115/</link>
+		<comments>https://www.quantamagazine.org/google-deepmind-trains-artificial-brainstorming-in-chess-ai-20231115/?noamp=mobile#respond</comments>
+		<pubDate>Wed, 15 Nov 2023 15:48:12 +0000</pubDate>
+    <dc:creator><![CDATA[Stephen Ornes]]></dc:creator>
+				<category><![CDATA[Computer Science]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=132316</guid>
+		<description><![CDATA[By bringing together disparate approaches, machines can reach a new level of creative problem-solving.            <p>The post <a href="https://www.quantamagazine.org/google-deepmind-trains-artificial-brainstorming-in-chess-ai-20231115/" target="_blank">AI System Beats Chess Puzzles With ‘Artificial Brainstorming’</a> first appeared on <a href="https://api.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>When Covid-19 sent people home in early 2020, the computer scientist Tom Zahavy rediscovered chess. He had played as a kid and had recently read Garry Kasparov&rsquo;s Deep Thinking, a memoir of the grandmaster&rsquo;s 1997 matches against IBM&rsquo;s chess-playing computer, Deep Blue. He watched chess videos on YouTube and The Queen&rsquo;s Gambit on Netflix. Despite his renewed interest, Zahavy wasn&rsquo;t looking for ways...</p>
+<p><a href="https://www.quantamagazine.org/google-deepmind-trains-artificial-brainstorming-in-chess-ai-20231115/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/google-deepmind-trains-artificial-brainstorming-in-chess-ai-20231115/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://d2r55xnwy6nx47.cloudfront.net/uploads/2023/11/CreativeChess-byNashWeerasekera-Default.webp" type="image/jpg"></media:content>
+	</item>
+	</channel>
+</rss>
