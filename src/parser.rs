@@ -187,7 +187,7 @@ fn get_photos(c: Channel) -> Vec<NewsPhoto> {
                     for medium in extension_map.get("content").unwrap() {
                         if medium.name() == "media:content" {
                             for (key, val) in medium.attrs() {
-                                if key == "url" {
+                                if key == "url" && !val.contains(".mp4") {
                                     photo.image_url = val.to_string()
                                 }
                             }
