@@ -28,10 +28,10 @@ fn parser_can_find_images_in_cdata() {
     is what this test confirms.
      */
 
-    let aeon = load_fixture("aeon.xml".to_string());
-    assert!(aeon.is_some());
+    let feed = load_fixture("aeon.xml".to_string());
+    assert!(feed.is_some());
 
-    let channel = Channel::from_str(&aeon.unwrap());
+    let channel = Channel::from_str(&feed.unwrap());
     assert!(channel.is_ok());
 
     let results = get_photos(channel.unwrap());
@@ -46,10 +46,10 @@ fn parser_ignores_feeds_without_images() {
     feeds to collect here).
      */
 
-    let bbc = load_fixture("bbc.xml".to_string());
-    assert!(bbc.is_some());
+    let feed = load_fixture("bbc.xml".to_string());
+    assert!(feed.is_some());
 
-    let channel = Channel::from_str(&bbc.unwrap());
+    let channel = Channel::from_str(&feed.unwrap());
     assert!(channel.is_ok());
 
     let results = get_photos(channel.unwrap());
@@ -63,10 +63,10 @@ fn parser_finds_dublin_core_correctly() {
     so this test confirms that the parser can get to underlying strings correctly.
      */
 
-    let quanta = load_fixture("quanta.xml".to_string());
-    assert!(quanta.is_some());
+    let feed = load_fixture("quanta.xml".to_string());
+    assert!(feed.is_some());
 
-    let channel = Channel::from_str(&quanta.unwrap());
+    let channel = Channel::from_str(&feed.unwrap());
     assert!(channel.is_ok());
 
     let results = get_photos(channel.unwrap());
@@ -85,4 +85,62 @@ fn parser_finds_dublin_core_correctly() {
         .map(|photo| photo.credit.clone().unwrap())
         .collect();
     assert_eq!(actual_credits, expected_credits);
+}
+
+#[test]
+fn parser_finds_image_content_when_given_both_thumbnails_and_content() {
+    /*
+    The Japan Times feed presents both a thumbnail (<media:thumbnail />) along with
+    a corresponding full-size image (<media:content />).
+
+    This test confirms the parser always picks the latter, when given both.
+     */
+
+    let feed = load_fixture("japantimes.xml".to_string());
+    assert!(feed.is_some());
+
+    let channel = Channel::from_str(&feed.unwrap());
+    assert!(channel.is_ok());
+
+    let results = get_photos(channel.unwrap());
+    assert_eq!(results.len(), 30);
+
+    let expected_images = vec![
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265519.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265520.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265504.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265517.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265515.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/264691.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265449.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265482.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265518.JPG",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265295.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265453.JPG",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265428.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/264355.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/264360.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265460.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265323.JPG",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265385.JPG",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265370.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265315.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265342.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/13/262368.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265444.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265332.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265265.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265326.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265266.JPG",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265337.JPG",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265307.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265244.jpg",
+        "https://www.japantimes.co.jp/japantimes/uploads/images/2023/11/24/265256.jpg",
+    ];
+
+    let actual_images: Vec<String> = results
+        .iter()
+        .map(|photo| photo.image_url.clone())
+        .collect();
+    assert_eq!(actual_images, expected_images);
 }
