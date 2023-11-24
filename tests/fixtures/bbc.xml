@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - News front page]]></title>
+        <description><![CDATA[BBC News - News front page]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - News front page</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 24 Nov 2023 14:59:44 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Firm in data scandal 'made election boasts']]></title>
+            <description><![CDATA[The company that became Cambridge Analytica boasted about interfering in foreign elections, according to documents seen by the Sunday Politics.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-43532916?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-43532916</guid>
+            <pubDate>Sun, 25 Mar 2018 11:52:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hawaii missile alert: False alarm warning broadcast]]></title>
+            <description><![CDATA[A false missile alert was broadcast in Hawaii urging people to take shelter.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-42679614?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-42679614</guid>
+            <pubDate>Sun, 14 Jan 2018 02:40:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dealing with debt: The mini-bankers learning how to save]]></title>
+            <description><![CDATA[Schoolchildren from Kirton Primary in Boston run their own bank with its own currency to learn about saving money.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-42664110?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-42664110</guid>
+            <pubDate>Sun, 14 Jan 2018 00:46:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[EgyptAir hijack: Man jumps from plane cockpit window]]></title>
+            <description><![CDATA[A man was filmed jumping from a hijacked EgyptAir plane cockpit window shortly before the hijacker surrendered.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-35917663?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-35917663</guid>
+            <pubDate>Tue, 29 Mar 2016 11:46:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[EgyptAir hijack: Cyprus president laughs off hijacking]]></title>
+            <description><![CDATA[Cyprus President Nicos Anastasiades has said that the hijacking of the plane that landed at Larnaca was not linked to terrorism.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-35915230?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-35915230</guid>
+            <pubDate>Tue, 29 Mar 2016 10:42:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Armed man shot by police at US Capitol building]]></title>
+            <description><![CDATA[Police shot an armed man as he tried to enter the Capitol building visitor centre in Washington DC.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-35914581?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-35914581</guid>
+            <pubDate>Tue, 29 Mar 2016 01:29:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How did FBI unlock dead gunman's iPhone?]]></title>
+            <description><![CDATA[The FBI has managed to unlock the iPhone of the San Bernardino gunman without Apple's help, ending a court case, the US justice department says.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-35913892?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-35913892</guid>
+            <pubDate>Tue, 29 Mar 2016 06:22:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Library cuts: How flagship building made savings]]></title>
+            <description><![CDATA[Birmingham's new £189m library had to shed staff and reduce hours within two years of opening.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-35885559?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-35885559</guid>
+            <pubDate>Mon, 28 Mar 2016 23:00:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Israel on alert for attacks by Islamic State fighters in Sinai]]></title>
+            <description><![CDATA[With so-called Islamic State militants active in Egypt's Sinai, Israeli troops are on alert for attacks just across the border.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-35914582?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-35914582</guid>
+            <pubDate>Tue, 29 Mar 2016 05:32:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fire engulfs tower block in UAE city Ajman]]></title>
+            <description><![CDATA[A fire has broken out in a tower block in the city of Ajman in the United Arab Emirates.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-35913885?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-35913885</guid>
+            <pubDate>Mon, 28 Mar 2016 21:39:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Inside Aleppo province: On the ground with Kurdish forces fighting IS]]></title>
+            <description><![CDATA[The BBC gains exclusive access in Aleppo province, where Kurdish forces have seized most of the border with Turkey from Islamic State fighters.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-35913890?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-35913890</guid>
+            <pubDate>Tue, 29 Mar 2016 04:08:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bouncy castle victim 'a beautiful angel']]></title>
+            <description><![CDATA[The parents of Summer Grant, seven, who died when the bouncy castle she was playing on blew away have been paying tribute to her.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-35912050?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-35912050</guid>
+            <pubDate>Mon, 28 Mar 2016 19:11:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What Katie did: Storm damage across London]]></title>
+            <description><![CDATA[Wind gusts of up to 105 mph (170 kph) from Storm Katie have caused Gatwick-bound flights to be diverted, and damage across London.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-35910002?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-35910002</guid>
+            <pubDate>Mon, 28 Mar 2016 09:47:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Drone reveals ancient city 'still standing']]></title>
+            <description><![CDATA[Drone footage has revealed that the ancient city of Palmyra is largely still intact, after being recaptured from so-called Islamic State (IS).]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-35910551?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-35910551</guid>
+            <pubDate>Mon, 28 Mar 2016 09:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Syria crisis: Refugees 'fascinated' by mobility scooter]]></title>
+            <description><![CDATA[The BBC's disability news correspondent, Nikki Fox, has been to the camp to see how those with a disability, who are some of the most vulnerable, survive.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-35912903?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-35912903</guid>
+            <pubDate>Mon, 28 Mar 2016 17:09:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pants for fishing nets: How stranded WW2 crew survived]]></title>
+            <description><![CDATA[The family of an RAF flight officer relives their father's wartime tale of survival.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-35911549?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-35911549</guid>
+            <pubDate>Mon, 28 Mar 2016 11:31:08 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

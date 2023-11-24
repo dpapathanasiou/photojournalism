@@ -207,3 +207,7 @@ pub async fn get_photos_from_feed(url: &str) -> Vec<NewsPhoto> {
         }
     }
 }
+
+#[path = "parser_test.rs"]
+#[cfg(test)]
+mod tests;
