@@ -121,3 +121,7 @@ pub fn run(listener: TcpListener, db: FeedDb, next_size: usize) -> Result<Server
 
     Ok(server)
 }
+
+#[path = "server_test.rs"]
+#[cfg(test)]
+mod tests;

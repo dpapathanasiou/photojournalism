@@ -21,11 +21,8 @@ The site does not issue cookies, nor is there any type of authentication require
 ## Build and run as a local binary
 
 - [Install Rust](https://www.rust-lang.org/tools/install) and clone this repo
-- Set the required `PHOTOJOURNALISM_` environment variables ([confg.toml](config.toml) has appropriate defaults)
-- Build and run:
-```sh
-cargo run
-```
+- All the tests should pass: `cargo test`
+- Set the required `PHOTOJOURNALISM_` environment variables ([confg.toml](config.toml) has appropriate defaults) and run: `cargo run`
 
 Opening a browser to `http://0.0.0.0:9000/` (or whatever value you used for `PHOTOJOURNALISM_SERVER`) should result in an album view of the first set of current photos.
 
@@ -44,7 +41,7 @@ curl http://0.0.0.0:9000/health
 - `/api/next/{start_at_index}` returns a list of `NewsPhoto` structs (the actual number of results produced depends on the value of the `PHOTOJOURNALISM_PAGE_SIZE` environment variable)
 
 ```sh
-curl http://0.0.0.0:9000/api/next/0 | python -m json.tool
+curl http://0.0.0.0:9000/api/next/0
 [
     {
         "image_url": "https://static01.nyt.com/images/2023/11/23/multimedia/23finland-border-kmbp/23finland-border-kmbp-mediumSquareAt3X.jpg",
