@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Top Stories</title>
+    <link>https://www.nytimes.com</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2023 The New York Times Company</copyright>
+    <lastBuildDate>Fri, 24 Nov 2023 17:22:40 +0000</lastBuildDate>
+    <pubDate>Fri, 24 Nov 2023 17:11:25 +0000</pubDate>
+    <image>
+      <title>NYT &gt; Top Stories</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com</link>
+    </image>
+    <item>
+      <title>Can the Palestinian Authority Really Govern Gaza After the War?</title>
+      <link>https://www.nytimes.com/2023/11/24/world/middleeast/palestinian-authority-gaza-war.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/world/middleeast/palestinian-authority-gaza-war.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/world/middleeast/palestinian-authority-gaza-war.html" rel="standout"></atom:link>
+      <description>Considered authoritarian and corrupt, the Palestinian Authority is still Washington’s choice to run the enclave. But many believe it can be credible now only if it includes Hamas.</description>
+      <dc:creator>Steven Erlanger</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 13:14:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Abbas, Mahmoud</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ramallah (West Bank)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Polls and Public Opinion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israeli Settlements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Peace Process</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Fatah, Al</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Palestine Liberation Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Palestinian Authority</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Barghouti, Marwan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Haniya, Ismail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sheikh, Hussein al-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Middle East</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">West Bank</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24israel-hamas-pa-01-qlfm/24israel-hamas-pa-01-qlfm-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Samar Abu Elouf for The New York Times</media:credit>
+      <media:description>Gaza City. Hamas seized control of Gaza in 2007, after winning legislative elections the previous year.</media:description>
+    </item>
+    <item>
+      <title>Qatar and Egypt Negotiated For Release of 12 Thai Hostages</title>
+      <link>https://www.nytimes.com/live/2023/11/24/world/israel-hamas-hostage-release-gaza-war/gaza-12-thai-hostages-released-qatar-egypt</link>
+      <guid isPermaLink="true">https://www.nytimes.com/live/2023/11/24/world/israel-hamas-hostage-release-gaza-war/gaza-12-thai-hostages-released-qatar-egypt</guid>
+      <atom:link href="https://www.nytimes.com/live/2023/11/24/world/israel-hamas-hostage-release-gaza-war/gaza-12-thai-hostages-released-qatar-egypt" rel="standout"></atom:link>
+      <description></description>
+      <dc:creator>Sui-Lee Wee, Edward Wong and Yara Bayoumy</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 17:02:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>NYU Langone Fired Him for His Anti-Hamas Posts. He’s Suing.</title>
+      <link>https://www.nytimes.com/2023/11/24/nyregion/nyu-langone-cancer-doctor-fired-lawsuit.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/nyregion/nyu-langone-cancer-doctor-fired-lawsuit.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/nyregion/nyu-langone-cancer-doctor-fired-lawsuit.html" rel="standout"></atom:link>
+      <description>The lawsuit, filed by the director of a cancer center, comes amid debate over how companies handle employees’ public remarks about the Israel-Hamas war.</description>
+      <dc:creator>Joseph Goldstein</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 11:02:21 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits and Litigation (Civil)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New York University Langone Health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New York University</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/21/multimedia/21ny-doctor-firing-gjcf/21ny-doctor-firing-gjcf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Jeenah Moon for The New York Times</media:credit>
+      <media:description>Dr. Benjamin Neel was fired over his pro-Israel postings on social media. Now he is suing his employer, NYU Langone Health.</media:description>
+    </item>
+    <item>
+      <title>Black Friday Isn’t What It Used to Be</title>
+      <link>https://www.nytimes.com/2023/11/24/business/what-is-black-friday.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/business/what-is-black-friday.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/business/what-is-black-friday.html" rel="standout"></atom:link>
+      <description>Big discounts, many of them online only, start appearing well before Thanksgiving and will run long after. Some people still go to the mall, though.</description>
+      <dc:creator>J. Edward Moreno and Santul Nerkar</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 17:11:25 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black Friday and Cyber Monday (Shopping)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Thanksgiving Day</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Company Reports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Behavior</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Retail Federation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gennette, Jeffrey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discount Selling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gifts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Christmas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Barnes &amp; Noble Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Best BUY Company Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Macy&#39;s Inc</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24BLACK-FRIDAY-tjmb/24BLACK-FRIDAY-tjmb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mathias Wasik for The New York Times</media:credit>
+      <media:description>Much of Americans’ spending starts well before the day after Thanksgiving, particularly online.</media:description>
+    </item>
+    <item>
+      <title>How Workers for Amazon, Target and More Make Your Shopping Possible</title>
+      <link>https://www.nytimes.com/2023/11/24/business/retail-workers-black-friday-shopping.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/business/retail-workers-black-friday-shopping.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/business/retail-workers-black-friday-shopping.html" rel="standout"></atom:link>
+      <description>It’s the busiest time of year in the retail and logistics industries. Here’s how employees at four of the biggest retailers pull it off.</description>
+      <dc:creator>Jordyn Holman and Julie Creswell</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 14:57:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black Friday and Cyber Monday (Shopping)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holidays and Special Occasions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Christmas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supply Chain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Macy&#39;s Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Nordstrom Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Target Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Amazon.com Inc</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/25/multimedia/24Holiday-Power-Players-wgvf/24Holiday-Power-Players-wgvf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Jutharat Pinyodoonyachet for The New York Times</media:credit>
+      <media:description>Nordstrom’s visual team tackles decorating stores beginning on the Monday evening before Thanksgiving. </media:description>
+    </item>
+    <item>
+      <title>Navigating the Black Friday Travels Sales and Deals</title>
+      <link>https://www.nytimes.com/2023/11/20/travel/black-friday-travel-deals.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/20/travel/black-friday-travel-deals.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/20/travel/black-friday-travel-deals.html" rel="standout"></atom:link>
+      <description>Bargain shoppers will find discounts on hotels, resorts, far-flung tours and cruises. The key is to act quickly before they disappear.</description>
+      <dc:creator>Elaine Glusac</dc:creator>
+      <pubDate>Mon, 20 Nov 2023 10:01:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hotels and Travel Lodgings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Budget Travel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black Friday and Cyber Monday (Shopping)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/21/travel/19holiday-deals-illo/19holiday-deals-illo-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nguyen Tran</media:credit>
+    </item>
+    <item>
+      <title>Growing Numbers of Chinese Migrants Cross U.S. Southern Border</title>
+      <link>https://www.nytimes.com/2023/11/24/us/politics/china-migrants-us-border.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/us/politics/china-migrants-us-border.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/us/politics/china-migrants-us-border.html" rel="standout"></atom:link>
+      <description>More than 24,000 Chinese citizens have been apprehended crossing into the United States from Mexico in the past year. That is more than in the preceding 10 years combined.</description>
+      <dc:creator>Eileen Sullivan</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 15:57:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Illegal Immigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Visas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Transactional Records Access Clearinghouse</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Darien Gap</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/20/multimedia/00dc-immig-chinese-01-zcgw/00dc-immig-chinese-01-zcgw-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Reuters</media:credit>
+      <media:description>A family of migrants from China in Texas after surrendering to Border Patrol in April.</media:description>
+    </item>
+    <item>
+      <title>Dublin Violence Brings Shame on Ireland, Prime Minister Varadkar Says</title>
+      <link>https://www.nytimes.com/2023/11/24/world/europe/dublin-riots-police.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/world/europe/dublin-riots-police.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/world/europe/dublin-riots-police.html" rel="standout"></atom:link>
+      <description>Officials have condemned violence that broke out in the capital after a knife attack. The police said 34 people were arrested and a police officer was seriously injured.</description>
+      <dc:creator>Isabella Kwai and Adam Satariano</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 16:49:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Attacks on Police</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Dublin (Ireland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24xp-ireland-hjfq/24xp-ireland-hjfq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Clodagh Kilcoyne/Reuters</media:credit>
+      <media:description>Riot police in Dublin on Thursday.</media:description>
+    </item>
+    <item>
+      <title>Could Nikki Haley Really Beat Trump? Big Donors Are Daring to Dream.</title>
+      <link>https://www.nytimes.com/2023/11/24/us/politics/nikki-haley-trump-2024.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/us/politics/nikki-haley-trump-2024.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/us/politics/nikki-haley-trump-2024.html" rel="standout"></atom:link>
+      <description>Powerful players in the business world have gravitated toward Nikki Haley, aware that she remains an underdog but beginning to believe she has a chance.</description>
+      <dc:creator>Kate Kelly and Rebecca Davis O’Brien</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 10:02:29 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Haley, Nikki R</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Campaign Finance</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Primaries and Caucuses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dimon, James</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24POL-HALEY-DONORS-hzvj/24POL-HALEY-DONORS-hzvj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Jordan Gale for The New York Times</media:credit>
+      <media:description>Nikki Haley still trails former President Donald J. Trump by a wide margin in polls, but she has gained ground on Gov. Ron DeSantis of Florida, who has held the No. 2 spot in national surveys all year. </media:description>
+    </item>
+    <item>
+      <title>Georgia’s Liberal Organizers Warn of a Cash Crunch and Apathy</title>
+      <link>https://www.nytimes.com/2023/11/24/us/politics/georgia-democrats-funds-2024-election.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/us/politics/georgia-democrats-funds-2024-election.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/us/politics/georgia-democrats-funds-2024-election.html" rel="standout"></atom:link>
+      <description>Cost-conscious shifts in strategy and a changed political landscape have stoked fears about the groups’ ability to keep delivering victories for Democrats.</description>
+      <dc:creator>Maya King and Nick Corasaniti</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 14:56:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Black Voters Matter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Warnock, Raphael G</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2023/11/24/us/politics/24pol-ga-activists/24pol-ga-activists-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Alex Wong/Getty Images</media:credit>
+      <media:description>Cliff Albright, co-founder and executive director of the Black Voters Matter Fund, said donors and party leaders were weighing heavier investments in swing states like Michigan, Pennsylvania and Wisconsin.</media:description>
+    </item>
+    <item>
+      <title>Argentina’s Economy Depends on the U.S. Dollar. Can Javier Milei Change That?</title>
+      <link>https://www.nytimes.com/2023/11/24/world/americas/argentina-economy-peso-dollar-javier-milei.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/world/americas/argentina-economy-peso-dollar-javier-milei.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/world/americas/argentina-economy-peso-dollar-javier-milei.html" rel="standout"></atom:link>
+      <description>Years of economic quagmire created an upside-down economy in Argentina. Javier Milei, a far-right populist, won the presidency this week by promising to blow it all up.</description>
+      <dc:creator>Jack Nicas, Natalie Alcoba and Lucía Cholakian Herrera</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 16:55:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Currency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">US Dollar (Currency)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Milei, Javier</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Argentina</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/22/multimedia/22argentina-economy-jfwv/22argentina-economy-jfwv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Anita Pouchard Serra for The New York Times</media:credit>
+      <media:description>A shop in Buenos Aires, where prices are often written in chalk to allow for frequent increases.</media:description>
+    </item>
+    <item>
+      <title>Oscar Pistorius, Olympic Athlete Convicted of Murder, to Be Paroled</title>
+      <link>https://www.nytimes.com/2023/11/24/world/africa/oscar-pistorius-released-parole.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/world/africa/oscar-pistorius-released-parole.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/world/africa/oscar-pistorius-released-parole.html" rel="standout"></atom:link>
+      <description>The South African sprinter, who garnered global headlines after killing his girlfriend in 2013, will be released in January after meeting the requirements for parole.</description>
+      <dc:creator>Lynsey Chutel</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 16:25:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pistorius, Oscar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Probation and Parole</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Steenkamp, Reeva</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2012)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Africa</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24pistorious-1-fzlv/24pistorious-1-fzlv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>John Wessels/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Oscar Pistorius arriving at the Pretoria High Court in 2016. A parole board granted Mr. Pistorius’s petition for parole on the basis that he had served half of his 15-year sentence.</media:description>
+    </item>
+    <item>
+      <title>Baseball Has Grown in Bogotá, Colombia, Thanks to Venezuelan Migrants</title>
+      <link>https://www.nytimes.com/2023/11/24/sports/baseball/baseball-colombia-bogota-venezuela.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/sports/baseball/baseball-colombia-bogota-venezuela.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/sports/baseball/baseball-colombia-bogota-venezuela.html" rel="standout"></atom:link>
+      <description>In a Bogotá league, Venezuelans who fled their homeland have carried on their culture in a country surrounded by soccer — and have built a support system. “It’s like having a piece of Venezuela here.”</description>
+      <dc:creator>James Wagner</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 10:01:31 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bogota (Colombia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Colombia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/22/multimedia/00colombia-venezuela-baseball-tcwg/00colombia-venezuela-baseball-tcwg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Jaír Coll for The New York Times</media:credit>
+      <media:description>Boys from the Leones baseball team at the Hermes Barros Cabas baseball stadium in Bogotá.</media:description>
+    </item>
+    <item>
+      <title>France Scoffs at an Englishman’s ‘Napoleon’</title>
+      <link>https://www.nytimes.com/2023/11/24/arts/french-critics-napoleon.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/arts/french-critics-napoleon.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/arts/french-critics-napoleon.html" rel="standout"></atom:link>
+      <description>French critics considered Ridley Scott’s new biopic lazy, pointless, boring, migraine-inducing, too short and historically inaccurate. And that’s just to start.</description>
+      <dc:creator>Catherine Porter</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 15:39:07 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Napoleon (2023) (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Scott, Ridley</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Phoenix, Joaquin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bonaparte, Napoleon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+    </item>
+    <item>
+      <title>Lexington Candy Shop Serves New York’s Best Egg Creams</title>
+      <link>https://www.nytimes.com/2023/11/21/t-magazine/lexington-candy-shop.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/21/t-magazine/lexington-candy-shop.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/21/t-magazine/lexington-candy-shop.html" rel="standout"></atom:link>
+      <description>The owners of Lexington Candy Shop have, for over 98 years, refined their recipe and still make their syrups from scratch.</description>
+      <dc:creator>Reggie Nadelson</dc:creator>
+      <pubDate>Tue, 21 Nov 2023 19:49:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restaurants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Beverages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Lexington Candy Shop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Upper East Side (Manhattan, NY)</category>
+    </item>
+    <item>
+      <title>George Santos and the Very Good Reason People Lie About Nonsense</title>
+      <link>https://www.nytimes.com/2023/11/24/opinion/george-santos-lies-trump-adams.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/opinion/george-santos-lies-trump-adams.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/opinion/george-santos-lies-trump-adams.html" rel="standout"></atom:link>
+      <description>If you’re laughing, it’s working. </description>
+      <dc:creator>Elizabeth Spiers</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 16:00:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ethics and Official Misconduct</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lying</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Adams, Eric L</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Santos, George (1988- )</category>
+      <media:content height="1538" medium="image" url="https://static01.nyt.com/images/2023/11/23/multimedia/23spiers-1-clzb/23spiers-1-clzb-mediumSquareAt3X.jpg" width="1538"></media:content>
+      <media:credit>Eduardo Munoz/Reuters</media:credit>
+    </item>
+    <item>
+      <title>Your Rewards Card Isn’t as Rewarding as You Think</title>
+      <link>https://www.nytimes.com/2023/11/21/opinion/credit-card-rewards-inequality.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/21/opinion/credit-card-rewards-inequality.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/21/opinion/credit-card-rewards-inequality.html" rel="standout"></atom:link>
+      <description>Chasing credit card points is a game that everyone loses.</description>
+      <dc:creator>James Robinson and Emily Holzknecht</dc:creator>
+      <pubDate>Wed, 22 Nov 2023 17:34:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Credit Cards</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customer Loyalty Programs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Visa Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">MasterCard Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-opinionvideo</category>
+    </item>
+    <item>
+      <title>Patagonia’s Yvon Chouinard On the High Stakes of Low Quality</title>
+      <link>https://www.nytimes.com/2023/11/23/opinion/patagonia-environnment-fast-fashion.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/23/opinion/patagonia-environnment-fast-fashion.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/23/opinion/patagonia-environnment-fast-fashion.html" rel="standout"></atom:link>
+      <description>The Patagonia founder Yvon Chouinard on the price we pay for cheap things.</description>
+      <dc:creator>Yvon Chouinard</dc:creator>
+      <pubDate>Thu, 23 Nov 2023 19:29:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sustainable Living</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation Reduction Act of 2022</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Behavior</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Corporate Social Responsibility</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pollution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Patagonia Inc</category>
+      <media:content height="1786" medium="image" url="https://static01.nyt.com/images/2023/11/24/opinion/23Chouinard/23Chouinard-mediumSquareAt3X-v2.jpg" width="1786"></media:content>
+      <media:credit>Illustration by Shoshana Schultz/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Powerful Forces Are Fracking Our Attention. We Can Fight Back.</title>
+      <link>https://www.nytimes.com/2023/11/24/opinion/attention-economy-education.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/opinion/attention-economy-education.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/opinion/attention-economy-education.html" rel="standout"></atom:link>
+      <description>Attention education is the most powerful thing we can do for ourselves, for one another, for democracy.</description>
+      <dc:creator>D. Graham Burnett, Alyssa Loh and Peter Schmidt</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 16:00:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Senses and Sensation</category>
+    </item>
+    <item>
+      <title>A Different Approach to Climate Action</title>
+      <link>https://www.nytimes.com/2023/11/24/briefing/climate-action.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/briefing/climate-action.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/briefing/climate-action.html" rel="standout"></atom:link>
+      <description>What if we actually succeed in addressing the crisis?</description>
+      <dc:creator>David Gelles</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 14:40:41 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-storyline-no</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/22/multimedia/24themorning-lead-promo02/22themorning-lead-hcpb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Karsten Moran for The New York Times</media:credit>
+      <media:description>Ayana Elizabeth Johnson.</media:description>
+    </item>
+    <item>
+      <title>After Couple’s Fatal Bridge Crash, Investigators Search for Reason</title>
+      <link>https://www.nytimes.com/2023/11/23/nyregion/rainbow-bridge-car-crash-explosion-niagara-falls.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/23/nyregion/rainbow-bridge-car-crash-explosion-niagara-falls.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/23/nyregion/rainbow-bridge-car-crash-explosion-niagara-falls.html" rel="standout"></atom:link>
+      <description>The explosion at the Rainbow Bridge in Niagara Falls ignited fears of terror. The car’s occupants were local residents, and the authorities said there was no threat.</description>
+      <dc:creator>Ashley Southall and Jesse McKinley</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 15:50:09 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rainbow Bridge (Niagara Falls)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Traffic Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Bentley Motors Ltd</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Bureau of Investigation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hochul, Kathleen C</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Niagara Falls (NY)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24rainbow-bridge-wbhm/24rainbow-bridge-wbhm-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Brendan Bannon for The New York Times</media:credit>
+      <media:description>Investigators said the car was a Bentley that sped toward the bridge, hit a median and went airborne.</media:description>
+    </item>
+    <item>
+      <title>Once a Homeless Addict, a Mayor Takes On Housing and Drug Crises</title>
+      <link>https://www.nytimes.com/2023/11/24/world/canada/dan-carter-oshawa-mayor.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/world/canada/dan-carter-oshawa-mayor.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/world/canada/dan-carter-oshawa-mayor.html" rel="standout"></atom:link>
+      <description>Dan Carter was on the streets for 17 years. His experience informs his policy agenda as mayor of Oshawa, Ontario, a city of 175,000 struggling with overdoses and affordability.</description>
+      <dc:creator>Ian Austen</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 13:35:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Oshawa (Ontario)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ontario (Canada)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dan Carter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homeless Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drug Abuse and Traffic</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dyslexia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Local Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mayors</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24canada-carter-profile-gwzb/24canada-carter-profile-gwzb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Ian Willms for The New York Times</media:credit>
+      <media:description>Mayor Dan Carter at city hall in Oshawa, Ontario. Homeless and addicted to drugs from his teenage years until he was 31, he was fired from more jobs than he could remember.</media:description>
+    </item>
+    <item>
+      <title>How Viral Infections Cause Long-Term Health Problems</title>
+      <link>https://www.nytimes.com/2023/11/22/health/viral-infections-autoimmune-covid.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/22/health/viral-infections-autoimmune-covid.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/22/health/viral-infections-autoimmune-covid.html" rel="standout"></atom:link>
+      <description>In a few patients, the immune system becomes misdirected, attacking the body instead of the virus.</description>
+      <dc:creator>Apoorva Mandavilli</dc:creator>
+      <pubDate>Wed, 22 Nov 2023 10:00:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Multiple Sclerosis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Autoimmune Diseases</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immune System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Long Covid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chronic Fatigue Syndrome</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Antibodies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mononucleosis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rheumatoid Arthritis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bacteria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lupus Erythematosus</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/20/multimedia/00virus-autoimmune-01-tchk/00virus-autoimmune-01-tchk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nicole Buchanan for The New York Times</media:credit>
+      <media:description>Davida Wynn became infected with the coronavirus in May 2020 when she was a nurse on a Covid unit, and became so ill she was put into a medically induced coma for six weeks.</media:description>
+    </item>
+    <item>
+      <title>For Monetochka, a Moral Stand Started a Creative Climb</title>
+      <link>https://www.nytimes.com/2023/11/24/world/europe/monetochka-exiled-russian-pop-stars.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/world/europe/monetochka-exiled-russian-pop-stars.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/world/europe/monetochka-exiled-russian-pop-stars.html" rel="standout"></atom:link>
+      <description>Monetochka was one of Russia’s most discussed pop stars. Now, like other antiwar acts in exile, she’s having to retool her career.</description>
+      <dc:creator>Paul Sonne and Alex Marshall</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 10:02:36 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Monetochka</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Face (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24russia-musicians-04-wtcg/24russia-musicians-04-wtcg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Marvin Zilm for The New York Times</media:credit>
+      <media:description>Monetochka performing in Zurich this month.</media:description>
+    </item>
+    <item>
+      <title>At John Derian, Christmas Started in September</title>
+      <link>https://www.nytimes.com/2023/11/24/style/john-derian-christmas-ornaments.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/style/john-derian-christmas-ornaments.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/style/john-derian-christmas-ornaments.html" rel="standout"></atom:link>
+      <description>A week after the first day of fall, John Derian began setting up shop for the holidays.</description>
+      <dc:creator>Christopher Barnard</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 08:00:43 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Christmas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holidays and Special Occasions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Environment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Derian, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">East Village (Manhattan, NY)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/26/fashion/25JOHNDERIAN-CHRISTMAS-hzgv/25JOHNDERIAN-CHRISTMAS-hzgv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Jeenah Moon for The New York Times</media:credit>
+      <media:description>Decked out shelves at John Derian’s new holiday shop, which was set up inside a store normally used as a furniture showroom.</media:description>
+    </item>
+  </channel>
+</rss>
