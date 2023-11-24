@@ -1,10 +1,8 @@
-pub mod loader;
-pub mod parser;
-pub mod server;
-pub mod shuffler;
-
 use env_logger::Env;
 use log::info;
+use photojournalism::loader;
+use photojournalism::parser;
+use photojournalism::server;
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
