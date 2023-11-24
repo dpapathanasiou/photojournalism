@@ -1,5 +1,12 @@
 # RSS feeds with photos
 https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+https://rss.nytimes.com/services/xml/rss/nyt/nyregion.xml
+https://rss.nytimes.com/services/xml/rss/nyt/us.xml
+https://rss.nytimes.com/services/xml/rss/nyt/world.xml
+https://rss.nytimes.com/services/xml/rss/nyt/politics.xml
+https://rss.nytimes.com/services/xml/rss/nyt/business.xml
+https://rss.nytimes.com/services/xml/rss/nyt/arts.xml
+https://rss.nytimes.com/services/xml/rss/nyt/sports.xml
 https://www.politico.com/rss/politicopicks.xml
 https://www.wired.com/feed/rss
 https://www.france24.com/en/rss
@@ -9,3 +16,13 @@ https://api.quantamagazine.org/feed/
 https://foreignpolicy.com/category/world-brief/feed/
 https://foreignpolicy.com/category/flash-points/feed/
 https://foreignpolicy.com/category/situation-report/feed/
+https://feeds.thedailybeast.com/rss/articles
+https://www.cntraveler.com/feed/rss
+https://www.vanityfair.com/feed/rss
+https://feeds.npr.org/1001/rss.xml
+https://feeds.npr.org/1002/rss.xml
+https://feeds.npr.org/1032/rss.xml
+https://feeds.npr.org/1039/rss.xml
+https://feeds.npr.org/2/rss.xml
+https://feeds.npr.org/3/rss.xml
+https://feeds.npr.org/93559255/rss.xml
