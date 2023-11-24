@@ -196,3 +196,46 @@ fn parser_finds_image_description_when_available() {
         .collect();
     assert_eq!(actual_descriptions, expected_descriptions);
 }
+
+#[test]
+fn parser_ignores_tracking_images() {
+    /*
+    The NPR feed puts its images as html in CDATA blocks in <content:encoded>,
+    and also adds a tracking pixel (npr-rss-pixel.png) which we want to avoid
+    parsing as the item's image.
+
+    This test confirms the image fetch is the human-visible one.
+     */
+
+    let feed = load_fixture("npr.xml".to_string());
+    assert!(feed.is_some());
+
+    let channel = Channel::from_str(&feed.unwrap());
+    assert!(channel.is_ok());
+
+    let results = get_photos(channel.unwrap());
+    assert_eq!(results.len(), 14);
+
+    let expected_images = vec![
+        "https://media.npr.org/assets/img/2023/11/24/gettyimages-545171212_wide-f811535dc28ae966a4a8f7bdf67ddedb32d2ddd2.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/21/gettyimages-17150741001_wide-32145c61f6bc746a973fc0bd85163076e06484a7.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/23/tumbleweed1_wide-3076f91497489109e1a6f8ca4b9bd4ccb5083a0a.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/22/unclaimed_9_wide-b2e5b61c87eac643d8ebff8d0bbd6be40d7c742b.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/22/gettyimages-1238265839_wide-046ef920c5ef86ca5e9be4767015bb186e07ea67.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/22/ap12071219521_wide-159ba8364b31ce07a94e9c556e8dc50722639f7a.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/23/ap23145574875419_wide-95a558d101edeb0d72230148deff52c359ef42c1.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/24/gettyimages-1801062183_wide-d016bec56d6829171a3ffad36a73640b321acfb1.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/23/ap23327703189648_wide-e0581ac6cf655f8fa93c08f81aa105a106f9348d.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/23/nup_202950_01655_wide-bd18a34d96bb995675f483cd39b31a4456456704.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/23/ap23327577669073_wide-6a98ed6c5b23a0be8255f3a43471eba93f25aa68.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/23/ap23327365871490_wide-48f7c0812c320bab175f118649f2d4711ddc8d38.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/22/npr_jordan_ayman-oghanna034_wide-1bc4631d05db2736809a5404c451400fa6052f4f.jpg?s=600",
+        "https://media.npr.org/assets/img/2023/11/22/gettyimages-1711772431_wide-83e91b4ebe323d0ddcdfba8966fa951181dc6856.jpg?s=600",
+    ];
+
+    let actual_images: Vec<String> = results
+        .iter()
+        .map(|photo| photo.image_url.clone())
+        .collect();
+    assert_eq!(actual_images, expected_images);
+}
