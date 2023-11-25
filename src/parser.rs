@@ -5,7 +5,7 @@ use reqwest_middleware::ClientBuilder;
 use rss::Channel;
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
-use std::error::Error;
+use std::{env::temp_dir, error::Error, path::PathBuf};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct NewsPhoto {
@@ -56,11 +56,19 @@ fn user_agent() -> String {
     )
 }
 
+fn set_cache_manager() -> CACacheManager {
+    // prefer the system tmp folder as opposed to `./` which is the CACacheManager default
+    let mut manager = CACacheManager::default();
+    let tmp_path: PathBuf = [temp_dir(), "http-cacache".into()].iter().collect();
+    manager.path = tmp_path;
+    manager
+}
+
 async fn load_feed(url: &str) -> std::result::Result<Channel, Box<dyn Error>> {
     let client = ClientBuilder::new(Client::new())
         .with(Cache(HttpCache {
             mode: CacheMode::Default,
-            manager: CACacheManager::default(),
+            manager: set_cache_manager(),
             options: HttpCacheOptions::default(),
         }))
         .build();
