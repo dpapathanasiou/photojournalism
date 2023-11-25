@@ -57,3 +57,9 @@ curl http://0.0.0.0:9000/api/next/0
     }
 ]
 ```
+
+## Contribute
+
+[Pull requests](https://help.github.com/articles/about-pull-requests/), for either improving the [code](src), or adding to the [list of feeds](feeds.txt) (or both) are welcome!
+
+In particular, if you come across (yet) another feed which provides images differently than what the [parser](src/parser.rs) can currently process, please consider taking a snapshot, adding it to the [test fixtures](tests/fixtures), and updating the parsing logic, with a corresponding [test case](src/parser_test.rs).
