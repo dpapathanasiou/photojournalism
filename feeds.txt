@@ -47,3 +47,7 @@ https://www.scmp.com/rss/95/feed
 https://www.scmp.com/rss/323045/feed
 https://fortune.com/feed/fortune-feeds/?id=3230629
 https://www.pbs.org/newshour/feeds/rss/headlines
+https://www.ft.com/rss/home
+https://www.ft.com/rss/home/international
+https://english.kyodonews.net/rss/kyodonews-fzone.xml
+https://feeds.feedburner.com/theatlantic/infocus
