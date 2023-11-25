@@ -14,6 +14,9 @@ use std::sync::{Arc, Mutex};
 async fn main() -> std::io::Result<()> {
     env_logger::init_from_env(Env::default().default_filter_or("info"));
 
+    let static_folder = std::env::var("PHOTOJOURNALISM_STATIC_PATH")
+        .expect("env var 'PHOTOJOURNALISM_STATIC_PATH' not defined");
+
     let feed_list = std::env::var("PHOTOJOURNALISM_FEED_LIST")
         .expect("env var 'PHOTOJOURNALISM_FEED_LIST' not defined");
     let feed_path = Path::new(&feed_list);
@@ -59,5 +62,5 @@ async fn main() -> std::io::Result<()> {
     };
 
     info!("web service running on {address}");
-    server::run(listener, feed_db, next_size)?.await
+    server::run(listener, feed_db, next_size, static_folder)?.await
 }

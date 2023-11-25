@@ -99,7 +99,12 @@ async fn health(state: web::Data<AppState>) -> HttpResponse {
         .body(result)
 }
 
-pub fn run(listener: TcpListener, db: FeedDb, next_size: usize) -> Result<Server, std::io::Error> {
+pub fn run(
+    listener: TcpListener,
+    db: FeedDb,
+    next_size: usize,
+    static_path: String,
+) -> Result<Server, std::io::Error> {
     let server = HttpServer::new(move || {
         App::new()
             .app_data(web::Data::new(AppState {
@@ -113,8 +118,14 @@ pub fn run(listener: TcpListener, db: FeedDb, next_size: usize) -> Result<Server
                 web::scope("/api")
                     .service(web::resource("/next/{offset}").route(web::get().to(get_next))),
             )
-            .service(Files::new("/js", String::from("./static/js")).index_file("loader.js"))
-            .service(Files::new("/", String::from("./static/")).index_file("index.html"))
+            .service(
+                Files::new("/js", String::from(format!("{static_path}/static/js")))
+                    .index_file("loader.js"),
+            )
+            .service(
+                Files::new("/", String::from(format!("{static_path}/static/")))
+                    .index_file("index.html"),
+            )
     })
     .listen(listener)?
     .run();
