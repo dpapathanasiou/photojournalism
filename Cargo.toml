@@ -2,6 +2,8 @@
 name = "photojournalism"
 version = "0.1.0"
 edition = "2021"
+authors = ["Denis Papathanasiou <denis@papathanasiou.org>"]
+license = "MIT"
 
 [dependencies]
 rss = "2.0"
