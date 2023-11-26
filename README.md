@@ -16,6 +16,8 @@ In addition to the web view, which is based on the [boostrap album](https://getb
 
 The site does not issue cookies, nor is there any type of authentication required.
 
+An example is now up and running at [saruzai.com](https://www.saruzai.com/) (see the section below on how to host your own instance).
+
 # Getting Started
 
 ## Build and run as a local binary
@@ -58,7 +60,20 @@ curl http://0.0.0.0:9000/api/next/0
 ]
 ```
 
-## Contribute
+## Host your own instance
+
+All you need are the bundle of files in the [static](static) folder, and a self-contained executable file, which you can create by running `cargo build --release` (the single `photojournalism` binary file gets built in the `target/release` folder).
+
+Set the required `PHOTOJOURNALISM_` environment variables ([confg.toml](config.toml) has appropriate defaults) to match your filesystem layout before running it.
+
+Optionally, you can use something like [systemd](https://www.baeldung.com/linux/systemd-services-environment-variables) on linux to run it as a service, so that it starts automatically on system start and reboots.
+
+If you host it under your own domain, a proxy service such as [nginx](https://nginx.org/), along with free SSL certificates from [Let's Encrypt](https://letsencrypt.org/) are useful add-ons.
+
+[Digital Ocean](https://www.digitalocean.com/) is a particularly good hosting provider to consider, especially given their [excellent tutorials](https://docs.digitalocean.com/products/) for all of the above (using [this link](https://m.do.co/c/71387faa5599) to sign up gets you $200 in credit, and I gain a small referral credit as well).
+
+
+# Contribute
 
 [Pull requests](https://help.github.com/articles/about-pull-requests/), for either improving the [code](src), or adding to the [list of feeds](feeds.txt) (or both) are welcome!
 
