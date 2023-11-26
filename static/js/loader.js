@@ -14,7 +14,11 @@ function convert(obj) {
         alt_text = obj.story_url;
     }
 
-    let go_icon = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+    let go_icon = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+  </svg>`;
+
+    let info_icon = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
     <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
   </svg>`;
 
@@ -23,7 +27,10 @@ function convert(obj) {
     <div class="card-body">
       <div class="d-flex justify-content-between align-items-right">
         &nbsp;
-        <a href="${obj.story_url}" target="_blank" type="button" class="btn btn-sm btn-outline-info" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="${alt_text}">${go_icon}</a>
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-info" data-bs-toggle="popover" data-bs-trigger="click" data-bs-content="${alt_text}">${info_icon}</button>
+          <a href="${obj.story_url}" target="_blank" type="button" class="btn btn-sm btn-outline-info" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="${alt_text}">${go_icon}</a>
+        </div>
       </div>
     </div>
   </div>`;
