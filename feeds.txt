@@ -51,3 +51,4 @@ https://www.ft.com/rss/home
 https://www.ft.com/rss/home/international
 https://english.kyodonews.net/rss/kyodonews-fzone.xml
 https://feeds.feedburner.com/theatlantic/infocus
+https://www.vogue.com/feed/rss
