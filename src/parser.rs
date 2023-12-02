@@ -48,6 +48,12 @@ impl NewsPhoto {
     }
 }
 
+const IGNOREABLE: [&'static str; 3] = [".mp4", ".mov", "npr-rss-pixel.png"];
+
+fn ignore(url: &String) -> bool {
+    IGNOREABLE.iter().any(|ext| url.contains(ext))
+}
+
 fn user_agent() -> String {
     format!(
         "{}/{} +http://github.com/dpapathanasiou/photojournalism",
@@ -113,7 +119,7 @@ fn get_photos(c: Channel) -> Vec<NewsPhoto> {
                     for elem in fragment.select(&selector) {
                         if elem.value().attr("src").is_some() {
                             let img_url = elem.value().attr("src").clone().unwrap().to_string();
-                            if !img_url.contains("npr-rss-pixel.png") {
+                            if !ignore(&img_url) {
                                 photo.image_url = img_url
                             }
                         }
@@ -134,7 +140,10 @@ fn get_photos(c: Channel) -> Vec<NewsPhoto> {
                 Ok(selector) => {
                     for elem in fragment.select(&selector) {
                         if elem.value().attr("src").is_some() {
-                            photo.image_url = elem.value().attr("src").clone().unwrap().to_string()
+                            let img_url = elem.value().attr("src").clone().unwrap().to_string();
+                            if !ignore(&img_url) {
+                                photo.image_url = img_url
+                            }
                         }
                         if let Some(alt_text) = elem.value().attr("alt") {
                             if alt_text.len() > 0 {
@@ -149,7 +158,10 @@ fn get_photos(c: Channel) -> Vec<NewsPhoto> {
 
         if let Some(enc) = item.enclosure() {
             if enc.mime_type().starts_with("image/") {
-                photo.image_url = enc.url().to_string()
+                let img_url = enc.url().to_string();
+                if !ignore(&img_url) {
+                    photo.image_url = img_url
+                }
             }
         }
 
@@ -184,7 +196,9 @@ fn get_photos(c: Channel) -> Vec<NewsPhoto> {
                         if medium.name() == "media:thumbnail" {
                             for (key, val) in medium.attrs() {
                                 if key == "url" {
-                                    photo.image_url = val.to_string()
+                                    if !ignore(&val) {
+                                        photo.image_url = val.to_string()
+                                    }
                                 }
                             }
                         }
@@ -195,8 +209,10 @@ fn get_photos(c: Channel) -> Vec<NewsPhoto> {
                     for medium in extension_map.get("content").unwrap() {
                         if medium.name() == "media:content" {
                             for (key, val) in medium.attrs() {
-                                if key == "url" && !val.contains(".mp4") {
-                                    photo.image_url = val.to_string()
+                                if key == "url" {
+                                    if !ignore(&val) {
+                                        photo.image_url = val.to_string()
+                                    }
                                 }
                             }
                         }
