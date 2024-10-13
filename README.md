@@ -24,7 +24,7 @@ An example is now up and running at [saruzai.com](https://www.saruzai.com/) (see
 
 - [Install Rust](https://www.rust-lang.org/tools/install) and clone this repo
 - All the tests should pass: `cargo test`
-- Set the required `PHOTOJOURNALISM_` environment variables ([confg.toml](config.toml) has appropriate defaults) and run: `cargo run`
+- Set the required `PHOTOJOURNALISM_` environment variables ([config.toml](config.toml) has appropriate defaults) and run: `cargo run`
 
 Opening a browser to `http://0.0.0.0:9000/` (or whatever value you used for `PHOTOJOURNALISM_SERVER`) should result in an album view of the first set of current photos.
 
@@ -68,7 +68,7 @@ Use the [Dockerfile](Dockerfile) to create and run this application in a contain
 DOCKER_BUILDKIT=1 docker build --tag photojournalism --file Dockerfile .
 ```
 
-## Running the image
+### Running the image
 
 ```sh
 docker run -p 9000:9000 \
@@ -85,7 +85,7 @@ photojournalism
 
 note that the host defined in `PHOTOJOURNALISM_SERVER` *must* be `0.0.0.0` otherwise connecting from outside the container fails.
 
-## Confirming
+### Confirming
 
 Opening a browser to `http://0.0.0.0:9000/` or running these commands from outside the container should result in successful responses:
 
@@ -94,7 +94,7 @@ curl http://0.0.0.0:9000/health
 curl http://0.0.0.0:9000/api/next/0
 ```
 
-## Debugging
+### Debugging
 
 Attach to the running image:
 
