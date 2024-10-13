@@ -60,11 +60,53 @@ curl http://0.0.0.0:9000/api/next/0
 ]
 ```
 
+## Building the docker image
+
+Use the [Dockerfile](Dockerfile) to create and run this application in a container; in addition to [docker](https://www.docker.com/get-started/), this code and instructions have been confirmed to work under [Rancher Desktop](https://rancherdesktop.io/) as well:
+
+```sh
+DOCKER_BUILDKIT=1 docker build --tag photojournalism --file Dockerfile .
+```
+
+## Running the image
+
+```sh
+docker run -p 9000:9000 \
+-e PHOTOJOURNALISM_SERVER='0.0.0.0:9000' \
+-e PHOTOJOURNALISM_PAGE_SIZE=6 \
+-e PHOTOJOURNALISM_FETCH_INTERVAL=3600 \
+-e PHOTOJOURNALISM_FEED_LIST='/app/feeds.txt' \
+-e PHOTOJOURNALISM_STATIC_PATH='/app' \
+-e RUST_BACKTRACE=1 \
+-e RUST_LOG='debug' \
+--name photojournalism-container \
+photojournalism
+```
+
+note that the host defined in `PHOTOJOURNALISM_SERVER` *must* be `0.0.0.0` otherwise connecting from outside the container fails.
+
+## Confirming
+
+Opening a browser to `http://0.0.0.0:9000/` or running these commands from outside the container should result in successful responses:
+
+```sh
+curl http://0.0.0.0:9000/health
+curl http://0.0.0.0:9000/api/next/0
+```
+
+## Debugging
+
+Attach to the running image:
+
+```sh
+docker exec -it photojournalism-container /bin/sh
+```
+
 ## Host your own instance
 
 All you need are the bundle of files in the [static](static) folder, and a self-contained executable file, which you can create by running `cargo build --release` (the single `photojournalism` binary file gets built in the `target/release` folder).
 
-Set the required `PHOTOJOURNALISM_` environment variables ([confg.toml](config.toml) has appropriate defaults) to match your filesystem layout before running it.
+Set the required `PHOTOJOURNALISM_` environment variables ([config.toml](config.toml) has appropriate defaults) to match your filesystem layout before running it.
 
 Optionally, you can use something like [systemd](https://www.baeldung.com/linux/systemd-services-environment-variables) on linux to run it as a service, so that it starts automatically on system start and reboots.
 
