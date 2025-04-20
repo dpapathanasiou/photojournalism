@@ -16,7 +16,7 @@ In addition to the web view, which is based on the [boostrap album](https://getb
 
 The site does not issue cookies, nor is there any type of authentication required.
 
-An example is now up and running at [saruzai.com](https://www.saruzai.com/) (see the section below on how to host your own instance).
+An example is now up and running at [saruzai.com](https://saruzai.com/) (see the section below on how to host your own instance).
 
 # Getting Started
 
