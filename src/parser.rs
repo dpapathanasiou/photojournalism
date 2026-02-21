@@ -1,6 +1,6 @@
 use http_cache_reqwest::{CACacheManager, Cache, CacheMode, HttpCache, HttpCacheOptions};
-use reqwest::header::USER_AGENT;
 use reqwest::Client;
+use reqwest::header::USER_AGENT;
 use reqwest_middleware::ClientBuilder;
 use rss::Channel;
 use scraper::{Html, Selector};

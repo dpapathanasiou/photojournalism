@@ -1,6 +1,6 @@
 use super::*;
 use crate::parser::NewsPhoto;
-use actix_web::{body::to_bytes, test, web, App};
+use actix_web::{App, body::to_bytes, test, web};
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
 

@@ -3,7 +3,7 @@ use crate::shuffler::randomize;
 use actix_files::Files;
 use actix_web::http::header::ContentType;
 use actix_web::middleware::Logger;
-use actix_web::{dev::Server, web, App, HttpServer};
+use actix_web::{App, HttpServer, dev::Server, web};
 use actix_web::{HttpRequest, HttpResponse};
 use serde::{Deserialize, Serialize};
 use std::net::TcpListener;

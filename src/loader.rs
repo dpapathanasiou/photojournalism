@@ -1,4 +1,4 @@
-use crate::parser::{get_photos_from_feed, NewsPhoto};
+use crate::parser::{NewsPhoto, get_photos_from_feed};
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
 use std::time::Duration;
@@ -9,10 +9,13 @@ pub type FeedDb = Arc<Mutex<HashMap<String, Vec<NewsPhoto>>>>;
 async fn fetch(feeds: Vec<String>, db: FeedDb) {
     for feed in feeds {
         let photos = get_photos_from_feed(&feed).await;
-        if let Ok(mut hash) = db.lock() {
-            hash.insert(feed.to_string(), photos.clone());
-        } else {
-            log::error!("rss fetch: could not obtain FeedDb lock")
+        match db.lock() {
+            Ok(mut hash) => {
+                hash.insert(feed.to_string(), photos.clone());
+            }
+            _ => {
+                log::error!("rss fetch: could not obtain FeedDb lock")
+            }
         }
     }
 }
