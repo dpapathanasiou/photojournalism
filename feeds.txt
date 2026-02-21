@@ -16,7 +16,7 @@ https://api.quantamagazine.org/feed/
 https://foreignpolicy.com/category/world-brief/feed/
 https://foreignpolicy.com/category/flash-points/feed/
 https://foreignpolicy.com/category/situation-report/feed/
-https://feeds.thedailybeast.com/rss/articles
+https://www.thedailybeast.com/arc/outboundfeeds/rss/articles/
 https://www.cntraveler.com/feed/rss
 https://www.vanityfair.com/feed/rss
 https://feeds.npr.org/1001/rss.xml
@@ -67,3 +67,4 @@ https://feeds.elpais.com/mrss-s/list/ep/site/english.elpais.com/section/culture
 https://feeds.elpais.com/mrss-s/list/ep/site/english.elpais.com/section/sports
 https://feeds.elpais.com/mrss-s/list/ep/site/english.elpais.com/section/eps
 https://feeds.elpais.com/mrss-s/list/ep/site/english.elpais.com/section/latest-news
+https://www.lemonde.fr/en/rss/une.xml
