@@ -1,5 +1,5 @@
 # build stage 
-FROM rust:1.81.0-alpine AS builder
+FROM rust:1.93.1-alpine AS builder
 
 RUN set -eux \
   && apk update \
