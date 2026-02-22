@@ -62,7 +62,7 @@ curl http://0.0.0.0:9000/api/next/0
 
 ## Building the docker image
 
-Use the [Dockerfile](Dockerfile) to create and run this application in a container; in addition to [docker](https://www.docker.com/get-started/), this code and instructions have been confirmed to work under [Rancher Desktop](https://rancherdesktop.io/) as well:
+Use the [Dockerfile](Dockerfile) to create and run this application in a container; in addition to [docker](https://www.docker.com/get-started/), this code and instructions have been confirmed to work under [Rancher Desktop](https://rancherdesktop.io/), and [colima](https://colima.run/) (use `--arch x86_64` if it's not the default) as well:
 
 ```sh
 DOCKER_BUILDKIT=1 docker build --tag photojournalism --file Dockerfile .
